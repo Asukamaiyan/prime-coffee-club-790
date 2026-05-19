@@ -1,0 +1,95 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "FC3864A34D80147A",
+  "organizationName": "Prime Coffee Club 790",
+  "description": "Apple Wallet pass project",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(124, 58, 237)",
+  "labelColor": "rgb(233, 213, 255)",
+  "eventTicket": {
+    "headerFields": [
+      {
+        "key": "h1",
+        "label": "DOORS",
+        "value": "7:30 PM"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "p1",
+        "label": "EVENT",
+        "value": "Phoenix Tour"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "s1",
+        "label": "VENUE",
+        "value": "The Lighthouse"
+      },
+      {
+        "key": "s2",
+        "label": "CITY",
+        "value": "Brooklyn"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "a1",
+        "label": "SECTION",
+        "value": "GA"
+      },
+      {
+        "key": "a2",
+        "label": "ROW",
+        "value": "—"
+      },
+      {
+        "key": "a3",
+        "label": "SEAT",
+        "value": "—"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "b1",
+        "label": "Entry",
+        "value": "Show this pass at the door. Valid ID required for 21+ entry.",
+        "dataDetectorTypes": []
+      }
+    ]
+  },
+  "logoText": "Prime Coffee Club 790",
+  "semantics": {
+    "eventType": "PKEventTypeLivePerformance",
+    "eventName": "Phoenix Tour",
+    "eventStartDate": "2026-04-12T20:00:00-04:00",
+    "venueName": "The Lighthouse",
+    "venueRegionName": "Brooklyn",
+    "venueRoom": "Main Hall",
+    "performerNames": [
+      "Noctra"
+    ],
+    "admissionLevel": "General admission",
+    "attendeeName": "Rider 4877",
+    "seats": [
+      {
+        "seatSection": "GA",
+        "seatRow": "-",
+        "seatNumber": "-"
+      }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "NO-PHX-2026-04-12-GA-1827",
+      "messageEncoding": "iso-8859-1",
+      "altText": "1827"
+    }
+  ],
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000"
+}
